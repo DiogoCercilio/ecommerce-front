@@ -1,0 +1,10 @@
+<div class="card-product">
+  <h2>{{product.id}} - {{product.name}}</h2>
+  <a [routerLink]="['/produto/detalhes']" [queryParams]="{id: product.id}">
+    <img [src]="product.thumb" alt="">
+  </a>
+  <p>{{product.description}}</p>
+  <button (click)=addToCart(product.sku)>
+    Adicionar
+  </button>
+</div>
