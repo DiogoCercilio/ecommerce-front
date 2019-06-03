@@ -27,7 +27,7 @@ export class ProductListComponent implements OnInit {
 
   setProducts() {
 
-    const category = this.activatedRoute.snapshot.params.category;
+    const category = this.activatedRoute.snapshot.params.category || "";
     const productType = this.activatedRoute.snapshot.params.type;
     this.listTitle = productType + " " + category;
 
