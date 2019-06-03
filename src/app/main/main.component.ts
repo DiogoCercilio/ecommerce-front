@@ -14,7 +14,7 @@ export class MainComponent implements OnInit {
   public cart: Array<IProduct> = [];
 
   constructor(
-    private productService: ProductService
+    private productService: ProductService,
   ) { }
 
   ngOnInit() {
