@@ -9,6 +9,7 @@ import { IProduct } from '../model/product.interface';
 })
 export class MainComponent implements OnInit {
 
+  public listTitle: string = "Todos os produtos";
   public products: Array<IProduct>;
   public cart: Array<IProduct> = [];
 

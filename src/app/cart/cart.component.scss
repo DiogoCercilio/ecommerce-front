@@ -1,0 +1,11 @@
+.cart {
+    padding-right: 10px; 
+    display: flex; 
+    flex-direction: row-reverse;
+    padding-right: 30px;
+
+    &-link {
+        align-items: center; 
+        display: flex;        
+    }
+}

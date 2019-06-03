@@ -16,6 +16,7 @@ import { CartDetailsComponent } from './cart-details/cart-details.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { LogoComponent } from './logo/logo.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ProductListComponent } from './product-list/product-list.component';
     CartDetailsComponent,
     ProductDetailsComponent,
     PageNotFoundComponent,
-    ProductListComponent
+    ProductListComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,

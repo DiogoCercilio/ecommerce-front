@@ -1,8 +1,9 @@
-<div style="display: flex">
-
-  <!-- <h1 ngShow="isCustomSearch">Mostrando resultados para ***</h1> -->
-
-  <div *ngFor="let product of products">
-    <app-card-product class="app-card-product" [product]="product" (onAddItem)="addItem($event)"></app-card-product>
-  </div>
+<div>
+    
+  <h1>{{listTitle}}</h1>
+    
+  <div style="display: flex">
+    <div *ngFor="let product of products">
+      <app-card-product class="app-card-product" [product]="product" (onAddItem)="addItem($event)"></app-card-product>
+    </div>
 </div>
