@@ -28,6 +28,7 @@ export class MainComponent implements OnInit {
   }
 
   addItem(item) {
+    console.log('Add item from output...');
     this.cart.push(item);
   }
 

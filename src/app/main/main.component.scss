@@ -5,3 +5,8 @@ h1 {
 .app-card-product {
     display: inline-block;
 }
+
+.main-container {
+    display: flex; 
+    flex-wrap: wrap;
+}
